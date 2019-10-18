@@ -3,9 +3,13 @@ I use Atom to run it.
 
 Command to compile my program:
 
-javac running.java
+cd src
+
+javac running.java -d  ../bin
 
 Running command:
+
+cd bin
 
 java running
 
